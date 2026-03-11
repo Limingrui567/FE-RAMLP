@@ -30,3 +30,9 @@ The architecture of the Autoencoder model is shown below:
 The architecture of the FE-RAMLP surrogate is shown below:
 ![feramlp](https://github.com/user-attachments/assets/f2c85ccc-587e-4762-abdb-f609dfd84da6)
 
+For the implementation and training of the AE model, please refer to the RAMLP section.
+
+For the implementation and training of FERAMLP, please refer to Main_model_train.py.
+
+
+
