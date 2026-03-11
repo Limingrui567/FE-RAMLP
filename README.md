@@ -34,5 +34,9 @@ For the implementation and training of the AE model, please refer to the RAMLP s
 
 For the implementation and training of FERAMLP, please refer to Main_model_train.py.
 
+The high-Reynolds-number subsonic airfoil flow-field data used by FE-RAMLP can be found in the release.
+
+Test.py is provided for simple testing.
+
 
 
