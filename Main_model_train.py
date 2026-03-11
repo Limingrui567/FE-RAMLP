@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, TensorDataset, random_split, Subset
 
 
 # ================== Fix the random seed ==================
-save_path = r"F:\data_viscid\2D"
+save_path = r"F:\data\2D"
 checkpoint_file = os.path.join(save_path, "checkpoint_FERAMLP")
 
 sparse_index_file = os.path.join(
@@ -111,8 +111,8 @@ class RAMLP_WithFourier_NoGate(nn.Module):
 
 
 # ================== Data Loading ==================
-path_input = r"F:\data_viscid\2D\input.pt"
-path_output = r"F:\data_viscid\2D\label.pt"
+path_input = r"F:\2D\input.pt"
+path_output = r"F:\2D\label.pt"
 
 input = torch.load(path_input).float()
 output = torch.load(path_output).float()
@@ -264,3 +264,4 @@ def format_time(seconds):
 tqdm.write(
     f'Total train time: {format_time(sum(train_time_per_epoch))}, '
     f'Total validation time: {format_time(sum(test_time_per_epoch))}')
+
